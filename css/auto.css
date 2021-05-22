@@ -1,0 +1,86 @@
+:root {
+    --shad: 2px 10px 28px -8px rgba(0, 0, 0, 0.75);
+    --heightM: 100vh;
+    --heightS: 40%;
+    --borderF: 0.1.1px solid black;
+    --easiI: ease-in .3s;
+    --raidus: 8px;
+    --SV: 2px solid white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.inicial {
+    background: center center no-repeat;
+    width: 100%;
+    height: 100vh;
+    box-shadow: var(--shad);
+}
+
+.Sec {
+    height: var(--heightS);
+    margin-bottom: 6vh;
+    padding: 5vh;
+    box-shadow: var(--shad);
+}
+
+.Sec h2 {
+    background-color: #193f77;
+    color: aliceblue;
+    padding: 2vh;
+    width: 50%;
+    border-radius: var(--raidus);
+    margin-bottom: 3vh;
+}
+
+@media all and (max-width:600px) {
+    .Sec h2 {
+        width: 100%;
+    }
+}
+
+@media all and (max-height:400px) {
+    .hov {
+        width: 50%;
+    }
+    .card-text {
+        height: 20vh;
+    }
+    .Sec {
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+    .Sec h2 {
+        width: 100%;
+    }
+}
+
+.g-0 {
+    transition: ease-out .3s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.g-0:hover {
+    transition: ease-in .3s;
+    background: gray;
+    box-shadow: var(--shad);
+    border: var(--borderF);
+    color: aliceblue;
+}
+
+.imgs {
+    width: 100%;
+    height: 25vh;
+}
+
+.imgsS {
+    width: 100%;
+    height: 55vh;
+}

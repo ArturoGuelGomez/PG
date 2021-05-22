@@ -1,0 +1,160 @@
+  #nav {
+      margin-bottom: 3vh;
+  }
+  
+  .ses {
+      text-align: center;
+  }
+  
+  .row {
+      margin-bottom: 0;
+  }
+  
+  .row h2 {
+      background: #41becf;
+      color: aliceblue;
+      border-radius: 4px;
+      padding: 2vh 0 2vh 0;
+      margin-bottom: 0;
+      margin-top: 3vh;
+  }
+  
+  .row p {
+      padding: 3vh;
+  }
+  
+  .c {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  a {
+      margin-right: 2vh;
+  }
+  
+  .he {
+      border-radius: 10px;
+      margin-bottom: 5vh;
+  }
+  
+  .fi th {
+      background: #41becf;
+      border-left-width: 2px;
+      border-right-width: 2px;
+  }
+  
+  td {
+      background: #41becf;
+  }
+  
+  .main {
+      text-align: center;
+  }
+  
+  .img {
+      height: 30vh;
+  }
+  
+  .imM {
+      margin-bottom: 4vh;
+  }
+  
+  .card-title {
+      margin: 0;
+      padding-top: 4vh;
+      text-align: center;
+  }
+  
+  .card {
+      transition: ease-out.3s;
+      color: black
+  }
+  
+  .card:hover {
+      transition: ease-in .3s;
+      background: gray;
+      color: aliceblue;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .col {
+      margin-bottom: 4vh;
+  }
+  
+  .fon {
+      font-size: 2vh;
+  }
+  
+  .imgs {
+      width: 100%;
+      height: 40vh;
+  }
+  
+  .ses p {
+      margin: 0;
+  }
+  
+  @media all and (max-width:1000px) {
+      .table {
+          display: none;
+      }
+      .imgs {
+          margin-bottom: 4vh;
+      }
+  }
+  
+  @media all and (min-width:999px) {
+      .sd {
+          display: none;
+      }
+  }
+  
+  @media all and (min-height:700px) {
+      .col {
+          width: 50%;
+          padding: 1vh;
+      }
+  }
+  
+  @media (min-width: 768px) {}
+  
+  .col-md-6 {
+      width: 100%;
+  }
+  
+  p {
+      border: 1px solid black;
+  }
+  
+  .txt {
+      text-align: center;
+      background-color: gray;
+      padding: 2vh;
+      color: white;
+      border-radius: 5px;
+      margin-bottom: 3vh;
+  }
+  
+  .try {
+      display: none;
+  }
+  
+  .trys {
+      display: block;
+  }
+  
+  .secc1 {
+      margin-top: 3vh;
+  }
+  
+  .man {
+      text-align: center;
+      background-color: gray;
+      color: aliceblue;
+      border-radius: 5px;
+      padding: 2vh;
+  }

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <style>
+        .Rw {
+            height: 100vh;
+            background: white;
+        }
+        
+        img {
+            height: 100vh;
+        }
+        
+        .body {
+            background: white;
+        }
+        
+        .for {
+            background: white;
+            padding: 6vh;
+            margin-top: 9vh;
+            border-radius: 8px;
+            -webkit-box-shadow: 0px 2px 78px -6px rgba(0, 0, 0, 1);
+            -moz-box-shadow: 0px 2px 78px -6px rgba(0, 0, 0, 1);
+            box-shadow: 0px 2px 78px -6px rgba(0, 0, 0, 1);
+            width: 80%;
+        }
+        
+        .btn {
+            width: 100%;
+        }
+        
+        .img {
+            background: url('./src/Io.jpeg')center center no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+        
+        .thi {
+            align-items: center;
+        }
+        
+        textarea {
+            height: 20vh;
+            margin-bottom: 1vh;
+        }
+        
+        .ms {
+            visibility: hidden;
+        }
+        
+        @media all and (max-width:700px) {
+            .for {
+                margin: 0;
+                margin-top: 4vh;
+                width: 100%;
+            }
+        }
+        
+        @media all and (max-height:700px) {
+            .ms {
+                width: 100%;
+                height: 60vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top" style="padding: 2vh; margin-bottom: 2vh; ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ionic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link in " href="auto.html">Ionic Automatizacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link in" href="l.html">Ionic Robotica Educativa</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link in disabled" href="/ ">Ionic Medica</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link in " href="about.html">Contactanos</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid ">
+        <div class="row Rw ">
+            <div class="col-md-6 img ">
+                <img src="./src/Io.jpeg " alt=" " class="ms ">
+            </div>
+            <div class="col-md-6 ">
+                <div class="container for ">
+                    <form class="row g-3 ">
+                        <div class="col-md-6 ">
+                            <label for="validationCustom01 " class="form-label ">Nombre</label>
+                            <input type="text " class="form-control " id="validationCustom01 " value=" " required>
+
+                        </div>
+                        <div class="col-md-6 ">
+                            <label for="validationCustom02 " class="form-label "> Compañía / Institución </label>
+                            <input type="text " class="form-control " id="validationCustom02 " value=" " required>
+
+                        </div>
+                        <div class="col-12 ">
+                            <label for="validationCustom03 " class="form-label thi ">Email</label>
+                            <input type="text " class="form-control " id="validationCustom03 " required>
+
+                        </div>
+                        <div class="col-md-12 ">
+                            <label for="validationCustom03 " class="form-label thi ">Celular</label>
+                            <input type="text " class="form-control " id="validationCustom03 " required>
+
+                        </div>
+                        <div class="col-md-12 ">
+                            <center> <label for="validationCustom03 " class="form-label thi ">Comentarios</label></center>
+
+                            <textarea class="form-control " id="validationTextarea " placeholder=" " required></textarea>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="btn btn-secondary " type="submit ">Mandar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/bootstrap.min.js "></script>
+    <script>
+        console.log(window.location.href)
+        f = window.location.href;
+
+        s = 'http://127.0.0.1:5500/about.html';
+        a = f.slice(22);
+        console.log(a)
+
+        if (a == 'about.html') {
+            console.log('true')
+        } else {
+            console.log('false')
+        }
+    </script>
+</body>
+
+</html>
